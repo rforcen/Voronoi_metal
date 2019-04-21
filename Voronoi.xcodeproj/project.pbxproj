@@ -1,0 +1,379 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4E121A80226C876700D334B1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E121A7F226C876700D334B1 /* AppDelegate.m */; };
+		4E121A83226C876700D334B1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E121A82226C876700D334B1 /* ViewController.m */; };
+		4E121A85226C876800D334B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E121A84226C876800D334B1 /* Assets.xcassets */; };
+		4E121A88226C876800D334B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E121A86226C876800D334B1 /* Main.storyboard */; };
+		4E121A8B226C876800D334B1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E121A8A226C876800D334B1 /* main.m */; };
+		4E121A98226C894700D334B1 /* ImageBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E121A94226C894700D334B1 /* ImageBuffer.m */; };
+		4E121A99226C894700D334B1 /* ImageHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E121A96226C894700D334B1 /* ImageHelper.m */; };
+		4E121A9C226C895D00D334B1 /* VoronoiDrawer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4E121A9B226C895D00D334B1 /* VoronoiDrawer.mm */; };
+		4E121AA0226C8E6B00D334B1 /* MetalDevice.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4E121A9F226C8E6B00D334B1 /* MetalDevice.mm */; };
+		4E121AA2226C8E8A00D334B1 /* Voronoi.metal in Sources */ = {isa = PBXBuildFile; fileRef = 4E121AA1226C8E8A00D334B1 /* Voronoi.metal */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4E121A7B226C876700D334B1 /* Voronoi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Voronoi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E121A7E226C876700D334B1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4E121A7F226C876700D334B1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4E121A81226C876700D334B1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4E121A82226C876700D334B1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4E121A84226C876800D334B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4E121A87226C876800D334B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4E121A89226C876800D334B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E121A8A226C876800D334B1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4E121A8C226C876800D334B1 /* Voronoi.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Voronoi.entitlements; sourceTree = "<group>"; };
+		4E121A92226C878500D334B1 /* voronoi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = voronoi.h; sourceTree = "<group>"; };
+		4E121A94226C894700D334B1 /* ImageBuffer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageBuffer.m; sourceTree = "<group>"; };
+		4E121A95226C894700D334B1 /* ImageHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageHelper.h; sourceTree = "<group>"; };
+		4E121A96226C894700D334B1 /* ImageHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageHelper.m; sourceTree = "<group>"; };
+		4E121A97226C894700D334B1 /* ImageBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageBuffer.h; sourceTree = "<group>"; };
+		4E121A9A226C895D00D334B1 /* VoronoiDrawer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VoronoiDrawer.h; sourceTree = "<group>"; };
+		4E121A9B226C895D00D334B1 /* VoronoiDrawer.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = VoronoiDrawer.mm; sourceTree = "<group>"; };
+		4E121A9E226C8E6B00D334B1 /* MetalDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MetalDevice.h; sourceTree = "<group>"; };
+		4E121A9F226C8E6B00D334B1 /* MetalDevice.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MetalDevice.mm; sourceTree = "<group>"; };
+		4E121AA1226C8E8A00D334B1 /* Voronoi.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Voronoi.metal; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4E121A78226C876700D334B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4E121A72226C876700D334B1 = {
+			isa = PBXGroup;
+			children = (
+				4E121A7D226C876700D334B1 /* Voronoi */,
+				4E121A7C226C876700D334B1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4E121A7C226C876700D334B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4E121A7B226C876700D334B1 /* Voronoi.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4E121A7D226C876700D334B1 /* Voronoi */ = {
+			isa = PBXGroup;
+			children = (
+				4E121A9D226C8E6100D334B1 /* metal */,
+				4E121A93226C894700D334B1 /* image */,
+				4E121A92226C878500D334B1 /* voronoi.h */,
+				4E121A9A226C895D00D334B1 /* VoronoiDrawer.h */,
+				4E121A9B226C895D00D334B1 /* VoronoiDrawer.mm */,
+				4E121A7E226C876700D334B1 /* AppDelegate.h */,
+				4E121A7F226C876700D334B1 /* AppDelegate.m */,
+				4E121A81226C876700D334B1 /* ViewController.h */,
+				4E121A82226C876700D334B1 /* ViewController.m */,
+				4E121A84226C876800D334B1 /* Assets.xcassets */,
+				4E121A86226C876800D334B1 /* Main.storyboard */,
+				4E121A89226C876800D334B1 /* Info.plist */,
+				4E121A8A226C876800D334B1 /* main.m */,
+				4E121A8C226C876800D334B1 /* Voronoi.entitlements */,
+			);
+			path = Voronoi;
+			sourceTree = "<group>";
+		};
+		4E121A93226C894700D334B1 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				4E121A94226C894700D334B1 /* ImageBuffer.m */,
+				4E121A95226C894700D334B1 /* ImageHelper.h */,
+				4E121A96226C894700D334B1 /* ImageHelper.m */,
+				4E121A97226C894700D334B1 /* ImageBuffer.h */,
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
+		4E121A9D226C8E6100D334B1 /* metal */ = {
+			isa = PBXGroup;
+			children = (
+				4E121A9E226C8E6B00D334B1 /* MetalDevice.h */,
+				4E121A9F226C8E6B00D334B1 /* MetalDevice.mm */,
+				4E121AA1226C8E8A00D334B1 /* Voronoi.metal */,
+			);
+			path = metal;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4E121A7A226C876700D334B1 /* Voronoi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E121A8F226C876800D334B1 /* Build configuration list for PBXNativeTarget "Voronoi" */;
+			buildPhases = (
+				4E121A77226C876700D334B1 /* Sources */,
+				4E121A78226C876700D334B1 /* Frameworks */,
+				4E121A79226C876700D334B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Voronoi;
+			productName = Voronoi;
+			productReference = 4E121A7B226C876700D334B1 /* Voronoi.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4E121A73226C876700D334B1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = voicesync;
+				TargetAttributes = {
+					4E121A7A226C876700D334B1 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 4E121A76226C876700D334B1 /* Build configuration list for PBXProject "Voronoi" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4E121A72226C876700D334B1;
+			productRefGroup = 4E121A7C226C876700D334B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4E121A7A226C876700D334B1 /* Voronoi */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4E121A79226C876700D334B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E121A85226C876800D334B1 /* Assets.xcassets in Resources */,
+				4E121A88226C876800D334B1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4E121A77226C876700D334B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E121A83226C876700D334B1 /* ViewController.m in Sources */,
+				4E121A98226C894700D334B1 /* ImageBuffer.m in Sources */,
+				4E121AA2226C8E8A00D334B1 /* Voronoi.metal in Sources */,
+				4E121A8B226C876800D334B1 /* main.m in Sources */,
+				4E121A9C226C895D00D334B1 /* VoronoiDrawer.mm in Sources */,
+				4E121A80226C876700D334B1 /* AppDelegate.m in Sources */,
+				4E121AA0226C8E6B00D334B1 /* MetalDevice.mm in Sources */,
+				4E121A99226C894700D334B1 /* ImageHelper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4E121A86226C876800D334B1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E121A87226C876800D334B1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4E121A8D226C876800D334B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4E121A8E226C876800D334B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4E121A90226C876800D334B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Voronoi/Voronoi.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = ALFNML2A4Q;
+				INFOPLIST_FILE = Voronoi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = voicesync.Voronoi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4E121A91226C876800D334B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Voronoi/Voronoi.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = ALFNML2A4Q;
+				INFOPLIST_FILE = Voronoi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = voicesync.Voronoi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4E121A76226C876700D334B1 /* Build configuration list for PBXProject "Voronoi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E121A8D226C876800D334B1 /* Debug */,
+				4E121A8E226C876800D334B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E121A8F226C876800D334B1 /* Build configuration list for PBXNativeTarget "Voronoi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E121A90226C876800D334B1 /* Debug */,
+				4E121A91226C876800D334B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4E121A73226C876700D334B1 /* Project object */;
+}
